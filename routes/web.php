@@ -19,6 +19,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+ 
+// http://127.0.0.1:8000/product/viewProduct
 
 Route::group(['prefix'=>'addon'],function(){
     Route::get('viewAddon',[AddonController::class,'index'])->name('viewAddon');
