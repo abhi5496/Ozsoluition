@@ -1,0 +1,11 @@
+Documantation for the OZoutsourcing prject 
+
+URL : http://127.0.0.1:8000/product/viewProduct
+DATABASE : addon_root
+
+1. open the project using ( php artisan serve )
+2. hit the url  (http://127.0.0.1:8000/product/viewProduct ) for the project opening .
+3. select the Add product button to add the products and it will appear in product list.
+4. you can click the show addon list button and go for the addon table where you can add the addon and price also and submit the addon .
+5. once you submit the addon items it will apear in  add product form in the select column where you can select the addon item and price with image and submit the form 
+6. you will get the products details with having addon item in product list ...!
