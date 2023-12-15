@@ -20,7 +20,7 @@ Route::get('/', function () {
 });
 
  
-// http://127.0.0.1:8000/product/viewProduct
+ // Route for Addon items 
 
 Route::group(['prefix'=>'addon'],function(){
     Route::get('viewAddon',[AddonController::class,'index'])->name('viewAddon');
@@ -30,6 +30,7 @@ Route::group(['prefix'=>'addon'],function(){
 
 });
 
+ // Route for Products items 
 Route::group(['prefix'=>'product'],function(){
     Route::get('viewProduct',[ProductController::class,'index'])->name('viewProduct');
     Route::post('addProduct',[ProductController::class,'addProduct'])->name('addProduct');
